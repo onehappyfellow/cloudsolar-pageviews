@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="solar-pageviews-dashboard.css">
+</head>
+<body>
+	<div class="cs-nav">
+		<img src="solar-mark-full.png" class="mark">
+		<h1>Solar Pageviews</h1>
+	</div>
+	<div class="cs-flash">
+		<button onclick=backClose() class="btn btn-sm btn-default"><span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span> Back</button> Thanks to <strong>jonathanblog</strong> for providing visitors with solar!
+	</div>
+
+	<div class="cs-impact">
+		<div class="stats-toggle-wrap">
+			<a href="#" id="site-stats" class="stats-toggle active">jonathanblog</a>
+			<a href="#" id="total-stats" class="stats-toggle">Community Total</a>
+		</div>
+		<h3 id="impact-heading">Solar usage</h3>
+		<div class="cs-impact-display">
+			<div class="svg-wrapper svg-solar">
+<div id="cs-svg-solar">
+<svg width="100%" height="auto" version="1.1" viewBox="0 0 600 400" stroke="#fff" xmlns="http://www.w3.org/2000/svg">
+<!--original drawing-->
+<g transform="matrix(3.7795 0 0 3.7795 .0030594 -726.48)">
+<g fill="none" stroke-width="4.26">
+<!-- sun -->
+<g transform="matrix(.29238 .12218 -.12434 .28731 2009.2 957.53)">
+<g transform="translate(175.47 -81.041)">
+ <circle cx="-6867.1" cy="357.31" r="27.338" stroke-linecap="round" stroke-linejoin="round"/>
+ <path d="m-6867.1 399.64v18.926"/>
+ <path d="m-6867.1 296.07v18.926"/>
+</g>
+<g transform="rotate(90 -6738.9 404.53)">
+ <path d="m-6867.1 399.64v18.926"/>
+ <path d="m-6867.1 296.07v18.926"/>
+</g>
+<g transform="rotate(45 -6691.7 276.27)">
+ <g transform="translate(175.47 -81.041)">
+  <path d="m-6867.1 399.64v18.926"/>
+  <path d="m-6867.1 296.07v18.926"/>
+ </g>
+ <g transform="rotate(90 -6738.9 404.53)">
+  <path d="m-6867.1 399.64v18.926"/>
+  <path d="m-6867.1 296.07v18.926"/>
+ </g>
+</g>
+</g>
+<!-- solar panels -->
+<g>
+<g transform="matrix(.31772 0 0 .31221 2199.4 107.74)" >
+<path d="m-6722 475.68 56.506 11.152-26.766 84.759-56.134-12.639z" stroke-linejoin="round"/>
+<path d="m-6693.7 480.88-26.394 85.131"/>
+<path d="m-6731.3 503.93 56.134 10.781"/>
+<path d="m-6739.5 531.44 55.762 11.152"/>
+</g>
+<g transform="matrix(.31772 0 0 .31221 2221.4 107.74)">
+<path d="m-6722 475.68 56.506 11.152-26.766 84.759-56.134-12.639z" stroke-linejoin="round"/>
+<path d="m-6693.7 480.88-26.394 85.131"/>
+<path d="m-6731.3 503.93 56.134 10.781"/>
+<path d="m-6739.5 531.44 55.762 11.152"/>
+</g>
+<g transform="matrix(.31772 0 0 .31221 2177.4 107.74)">
+<path d="m-6722 475.68 56.506 11.152-26.766 84.759-56.134-12.639z" stroke-linejoin="round"/>
+<path d="m-6693.7 480.88-26.394 85.131"/>
+<path d="m-6731.3 503.93 56.134 10.781"/>
+<path d="m-6739.5 531.44 55.762 11.152"/>
+</g>
+</g>
+<!-- wire -->
+<path id="cs-svg-wire" d="m100.36 273.37c19.449 5.6162 27.163-14.534 25.515-55.244" stroke-width="1.1061"/>
+</g>
+<!-- electric pole -->
+<g transform="matrix(1.2008 0 0 1.18 53.389 103.49)" fill="none" stroke-width="1.0583">
+<path d="m65.022 109.71v-25.324h13.965v25.391"/>
+<path d="m56.269 90.2h31.471"/>
+<path d="m60.098 90.2v3.5199"/>
+<path d="m57.984 93.696h4.2286"/>
+<path d="m58.326 95.187h3.5435"/>
+<path d="m58.326 96.677h3.5435"/>
+<g transform="translate(11.906)">
+<path d="m60.098 90.2v3.5199"/>
+<path d="m57.984 93.696h4.2286"/>
+<path d="m58.326 95.187h3.5435"/>
+<path d="m58.326 96.677h3.5435"/>
+</g>
+<g transform="translate(23.813)">
+<path d="m60.098 90.2v3.5199"/>
+<path d="m57.984 93.696h4.2286"/>
+<path d="m58.326 95.187h3.5435"/>
+<path d="m58.326 96.677h3.5435"/>
+</g>
+</g>
+<!-- animated electricity dots -->
+<circle cx="" cy="" r="1.25" fill="#fff">
+<animateMotion dur="3s" repeatCount="indefinite">
+  <mpath xlink:href="#cs-svg-wire"/>
+</animateMotion>
+</circle>
+<circle cx="" cy="" r="1.25" fill="#fff">
+<animateMotion dur="3s" begin="1s" repeatCount="indefinite">
+  <mpath xlink:href="#cs-svg-wire"/>
+</animateMotion>
+</circle>
+<circle cx="" cy="" r="1.25" fill="#fff">
+<animateMotion dur="3s" begin="2s" repeatCount="indefinite">
+  <mpath xlink:href="#cs-svg-wire"/>
+</animateMotion>
+</circle>
+<!-- sunrays animate this -->
+<g fill="none" stroke-width="1.3438">
+<path d="m27.567 230.94 33.308 47.587" stroke-dasharray="2.68762432, 1.34381217">
+<animate attributeType="XML" attributeName="stroke-dashoffset" from="4" to="0" dur="1s" repeatCount="indefinite"/>
+</path>
+<path d="m28.837 229.38 42.581 43.065" stroke-dasharray="2.68762432, 1.34381217">
+<animate attributeType="XML" attributeName="stroke-dashoffset" from="4" to="0" dur="1s" repeatCount="indefinite"/>
+</path>
+<path d="m30.49 227.75 46.597 33.316" stroke-dasharray="2.68788881, 1.34394441">
+<animate attributeType="XML" attributeName="stroke-dashoffset" from="4" to="0" dur="1s" repeatCount="indefinite"/>
+</path>
+</g>
+</g>
+</svg>
+</div>
+			</div>
+		</div>
+		<h6 class="impact-total" id="sunjoules"><span>1,234,567</span> SunJoules</h6>
+		<div class="cs-impact-display">
+			<div class="svg-wrapper svg-comparison">
+<div id="cs-svg-carbon">
+<svg version="1.1" width="100%" height="auto" viewBox="0 0 600 400" stroke="#fff" xmlns="http://www.w3.org/2000/svg">
+ <!-- CO2 belching power plant --> 
+ <g transform="translate(0 -191.17)" fill="none">
+  <path id="smoke-path" d="m191.93 357.82c-15.596-96.136 105.15-119.96 152.53-83.843" stroke="transparent"/>
+  <path d="m232.27 337.1c-5.2891 0-9.5472 4.258-9.5472 9.5472v110.93h-0.80181v-77.403c0-5.2891-4.258-9.5472-9.5472-9.5472h-38.189c-5.2891 0-9.5472 4.258-9.5472 9.5472v171.85c0 5.2891 4.258 9.5472 9.5472 9.5472h251.53c5.2891 0 9.5472-4.258 9.5472-9.5472v-22.413c0.0433-0.35188 0.10565-0.69895 0.10565-1.0629v-86.664c0-4.7309-3.7622-8.5351-8.4656-8.6459v6e-3c-1.0713 0.036-2.1571 0.25523-3.201 0.71479l-42.154 18.566v-10.641c0-4.7309-3.7622-8.5351-8.4656-8.6459v6e-3c-1.0713 0.036-2.1571 0.25522-3.201 0.71479l-42.148 18.56v-10.635c0-4.7309-3.7622-8.5351-8.4656-8.6459v6e-3c-1.0714 0.036-2.157 0.25522-3.201 0.71479l-36.057 15.881v-103.19c0-5.2891-4.258-9.5472-9.5472-9.5472z" stroke-linejoin="round" stroke-width="6"/>
+  <g id="smoke">
+  <circle cx="" cy="" r="15" stroke="none" fill="#fff" >
+	<animate attributeType="XML" attributeName="r" from="15" to="50" dur="5s" repeatCount="indefinite"/>
+	<animateMotion dur="5s" repeatCount="indefinite">
+      <mpath xlink:href="#smoke-path"/>
+    </animateMotion>
+  </circle>
+  <circle cx="" cy="" r="15" stroke="none" fill="#fff" >
+	<animate attributeType="XML" attributeName="r" from="15" to="50" dur="5s" begin="1s" repeatCount="indefinite"/>
+	<animateMotion dur="5s" begin="1s" repeatCount="indefinite">
+      <mpath xlink:href="#smoke-path"/>
+    </animateMotion>
+  </circle>
+  <circle cx="" cy="" r="15" stroke="none" fill="#fff" >
+	<animate attributeType="XML" attributeName="r" from="15" to="50" dur="5s" begin="2s" repeatCount="indefinite"/>
+	<animateMotion dur="5s" begin="2s" repeatCount="indefinite">
+      <mpath xlink:href="#smoke-path"/>
+    </animateMotion>
+  </circle>
+  <circle cx="" cy="" r="15" stroke="none" fill="#fff" >
+	<animate attributeType="XML" attributeName="r" from="15" to="50" dur="5s" begin="3s" repeatCount="indefinite"/>
+	<animateMotion dur="5s" begin="3s" repeatCount="indefinite">
+      <mpath xlink:href="#smoke-path"/>
+    </animateMotion>
+  </circle>
+  <circle cx="" cy="" r="15" stroke="none" fill="#fff" >
+	<animate attributeType="XML" attributeName="r" from="15" to="50" dur="5s" begin="4s" repeatCount="indefinite"/>
+	<animateMotion dur="5s" begin="4s" repeatCount="indefinite">
+      <mpath xlink:href="#smoke-path"/>
+    </animateMotion>
+  </circle>
+  </g>
+ </g> 
+ 
+ <!-- speeding car -->
+ <g transform="translate(0 209)" fill="none" stroke="#fff" stroke-linecap="round">
+  <path id="svg-car-path" d="m802.5 478.38h-1005" stroke-width="0"/>
+  <path id="svg-car" d="m456.99 437.37c0 21.175-17.165 38.341-38.341 38.341-21.176 0-38.341-17.166-38.341-38.341 0-21.175 17.165-38.341 38.341-38.341 21.176 0 38.341 17.166 38.341 38.341zm-260.59 0c0 21.175-17.165 38.341-38.341 38.341-21.176 0-38.341-17.166-38.341-38.341 0-21.175 17.165-38.341 38.341-38.341 21.176 0 38.341 17.166 38.341 38.341zm-50.449-94.305 21.81 14.417 219.26 2.4117c-10.734-15.397-65.975-36.139-117.34-39.162-18.713-1.1-28.15-2.04-49.976-0.48509-31.844 3.2157-55.29 11.509-73.747 22.819zm-56.305 11.917-1.1572 15.295h9.5077c6.9949 0 12.65-5.6538 12.65-12.649v-2.6456zm406.65 36.587v2.6456c0 6.9956 5.6546 12.649 12.65 12.649h10.749v-6.118c0.28758-2.9706-0.48329-6.0556-2.0673-9.1768zm-247-87.609c-53.882 0-100.26 11.033-121.2 26.87l-16.949 1.3225c-10.666 0.81729-19.65 8.5256-21.165 18.767h-0.08608l-0.08608 0.57907c-0.09221 0.7918-0.16432 1.579-0.16432 2.3977 0 0.0626-6.13e-4 0.1204 0 0.16007l-3.3065 45.389c-3.6835 7.1274-6.1179 14.274-6.1179 19.677 0 16.191 13.075 29.184 29.267 29.184h6.0347c-0.92714-3.5537-1.4878-7.2324-1.4878-11.079 0-24.324 19.742-44.066 44.066-44.066 24.324 0 44.066 19.742 44.066 44.066 0 3.8462-0.56305 7.5249-1.4884 11.079h175.44c-0.92775-3.5537-1.4884-7.2324-1.4884-11.079 0-24.324 19.742-44.066 44.067-44.066 24.324 0 44.066 19.742 44.066 44.066 0 3.8462-0.56306 7.5249-1.4878 11.079h29.184c15.657 0 28.363-12.168 29.184-27.614h0.0861v-19.594c1.719-17.802-33.107-39.976-68.704-46.547-12.308-2.2712-24.087-2.7454-34.476-1.6531-24.563-22.57-104.01-48.944-167.25-48.944z" stroke-linejoin="round" stroke-width="6"/>
+ </g>
+ 
+ <!-- trees -->
+ <g transform="translate(0 609)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <g id="t1" stroke-width="3">
+   <path class="leaves" d="m300.12 208.54c-29.945 0-54.228 24.28-54.228 54.228 0 3.3674 0.28889 6.6255 0.87688 9.8236-31.926 8.2143-55.493 37.198-55.493 71.687 0 40.876 33.146 74.022 74.022 74.022 28.455 0 53.123-16.09 65.51-39.637 29.289-0.75578 52.815-24.709 52.815-54.178 0-21.564-12.606-40.19-30.832-48.927 0.99652-4.113 1.5553-8.369 1.5553-12.79 0-29.948-24.281-54.228-54.228-54.228z"/>
+   <g>
+    <path class="trunk" d="m288.63 552.07v-259.64"/>
+    <path class="branch" d="m288.63 346.26 44.328-44.33"/>
+    <path class="branch" d="m287.83 382.67-45.91-45.913"/>
+   </g>
+  </g>
+  <g id="t2" stroke-width="3">
+   <path class="leaves" d="m139.31 393.73c15.808 0 28.626 12.817 28.626 28.626 0 1.7777-0.15247 3.4975-0.46289 5.1858 16.854 4.3362 29.294 19.636 29.294 37.842 0 21.578-17.497 39.075-39.076 39.075-15.021 0-28.043-8.4938-34.582-20.924-15.461-0.39876-27.881-13.043-27.881-28.6 0-11.384 6.6546-21.216 16.276-25.828-0.52605-2.1712-0.82104-4.4179-0.82104-6.7516 0-15.809 12.818-28.626 28.626-28.626z"/>
+   <g>
+    <path class="trunk" d="m145.38 575.07v-137.06"/>
+    <path class="branch" d="m145.38 466.43-23.4-23.401"/>
+    <path class="branch" d="m145.8 485.65 24.235-24.237"/>
+   </g>
+  </g>
+  <g id="t3" stroke-width="3">
+   <path class="trunk" d="m431.11 555.24v-151.19"/>
+   <path class="branch" d="m431.11 461.83-34.829-34.829"/>
+   <path class="leaves" d="m436.25 346.27c-17.707 0-32.051 14.345-32.051 32.051 0 1.9609 0.19697 3.8737 0.53547 5.7384-21.591 8.2435-36.963 29.157-36.963 53.644 0 31.696 25.694 57.388 57.389 57.388 31.695 0 57.388-25.692 57.388-57.388 0-16.926-7.3127-32.148-18.969-42.652 2.9925-4.8746 4.717-10.594 4.717-16.731 0-17.705-14.342-32.051-32.048-32.051z"/>
+  </g>
+ </g>
+</svg>
+</div>
+			</div>
+			<h6 class="impact-total" id="sunjoule-comparison" data-toggle=-1>loading...</h6>
+			<button id="svg-toggle" class="btn btn-sm btn-primary">Equivalent to <span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span></button>
+		</div>
+	</div>
+	<div class="cs-main">
+				<h1>How it works</h1>
+				<!-- 16:9 aspect ratio -->
+				<div class="embed-responsive embed-responsive-16by9">
+				  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/kQa7tRqcGsM" frameborder="0"></iframe>
+				</div>
+				<div class="cs-main-text">
+					<h3>Solar through the internet? Wild!</h3>
+					<p>Unfortunately, solar can't make your screen brighter or make your battery last longer. But even if you don't see it, this site is helping make a difference for the environment. That's because this site is providing solar to every computer that visits it.</p>
+					<p>It's actually quite simple, take a look:</p>
+					<ul>
+						<li>You visit a site with the 100% SOLAR mark</li>
+						<li>Your computer tells the site how much energy it uses to load and display the page</li>
+						<li>The site tells CloudSolar<sup>&reg;</sup> to allocate enough solar energy rights to match that amount</li>
+						<li>The longer you stay on the site, the more solar gets used</li>
+						<li>The more solar rights get used, the more solar gets built</li>
+					</ul>
+					<p>The end result is that just by browsing this site you are doing a tiny bit to help clean up our energy supply and build a sustainable future. Thanks!</p>
+					<p>Want to read all the technical mumbo jumbo? You can learn more at <a href="https://cloudsolar.co">www.cloudsolar.co</a>
+				</div>
+		<div class="cs-footer">
+			<p>This open source project utilizes the CloudSolar<sup>&reg;</sup> API to make all displayed pageviews from participating sites solar powered. Solar energy allocated to each view covers the calculated usage of the viewing device's display, processing and data transfer.</p>
+			<a href="https://cloudsolar.co" class="btn btn-sm btn-primary">Learn More</a>
+		</div>
+	</div>
+	<script>
+		const SJSITE = 123333, SJTOTAL = 45678889;
+		
+		function backClose(){
+			window.history.back();
+			window.close();
+		}
+		
+		function toggleSite(){
+			document.getElementById('total-stats').classList.remove('active');
+			document.getElementById('site-stats').classList.add('active');
+			document.querySelector('#sunjoules').children[0].textContent = SJSITE.toLocaleString();
+			toggleEquiv();
+		}
+		document.getElementById('site-stats').addEventListener('click', toggleSite);
+		
+		function toggleTotal(){
+			document.getElementById('site-stats').classList.remove('active');
+			document.getElementById('total-stats').classList.add('active');
+			document.querySelector('#sunjoules').children[0].textContent = SJTOTAL.toLocaleString();
+			toggleEquiv();
+		}
+		document.getElementById('total-stats').addEventListener('click', toggleTotal);
+		
+		function toggleEquiv(){
+			/*
+			Source for conversion factors https://www.epa.gov/energy/greenhouse-gases-equivalencies-calculator-calculations-and-references accessed 8/20/2017
+			0.000703 metric tons CO2 / kWh (3600 SunJoules) => SJ * 4.3051e-4 = lbs CO2
+			8.887 × 10-3 metric tons CO2/gallon of gasoline => SJ * 2.1973e-5 = gallons of gas
+			0.039 metric ton CO2 per urban tree planted => SJ * 5.0071e-6 = trees planted
+			*/
+			const svg = document.querySelector('#cs-svg-carbon').children[0]; //selects the SVG element itself, allowing direct modification of viewBox
+			const text = document.querySelector('#sunjoule-comparison');
+			const sj = parseInt(document.querySelector('#sunjoules').textContent.split(' ')[0].replace(/,/g, ''));
+			
+			function carbon(sj){
+				svg.viewBox.baseVal.y = 0;
+				document.getElementById("t1").classList.remove("draw");
+				document.getElementById("t2").classList.remove("draw");
+				document.getElementById("t3").classList.remove("draw");
+				text.innerHTML = "<span>" + Math.round(sj * 0.00043051).toLocaleString() + "</span> lbs CO2 not emitted";
+				document.getElementById("smoke").style.opacity = "0";
+			}
+			function gas(sj){
+				svg.viewBox.baseVal.y = 400;
+				document.getElementById("smoke").style.opacity = "1";
+				text.innerHTML = "<span>" + Math.round(sj * 0.000021983).toLocaleString() + "</span> gallons of gas saved";
+				setTimeout(function(){
+					document.getElementById("svg-car").style.transform = "translateX(600px)";
+				},1200);
+			}
+			function trees(sj){
+				svg.viewBox.baseVal.y = 800;
+				document.getElementById("svg-car").style.transform = null; // reset the positioning of the car off-screen
+				text.innerHTML = "<span>" + Math.round(sj * 0.000005007).toLocaleString() + "</span> trees planted";
+				document.getElementById("t1").classList.add("draw");
+				setTimeout(function(){
+					document.getElementById("t2").classList.add("draw");
+				}, 1800);
+				setTimeout(function(){
+					document.getElementById("t3").classList.add("draw");
+				}, 2800);
+			}
+			
+			const rotation = [carbon,gas,trees];
+			var n = parseInt(text.dataset.toggle) + 1;
+			if (n >= rotation.length) n = 0;
+			text.dataset.toggle = n;
+			rotation[n](sj);
+		}
+		document.getElementById('svg-toggle').addEventListener('click', toggleEquiv);
+		
+		toggleSite();
+		var rotate = setInterval(toggleEquiv, 5000);
+	</script>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>

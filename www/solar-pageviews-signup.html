@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Smart grid solar for any use">
+
+    <title>Solar Page Views</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="dashboard-style.css">
+	
+	<style>
+		.content{
+			background-color:#fff;
+		}
+		.sidebar{
+			background-color:#ddd;
+		}
+		.content p{
+			color: #353535;
+			font-size: 14px;
+		}
+		.content h2{
+			color: #353535;
+			font-size: 32px;
+			font-weight: 600;
+			text-transform: uppercase;
+			margin-top:30px;
+		}
+		.content a{
+			color: #d12329;
+		}
+		.content a:hover{
+			color: #af1924;
+		}
+		a.btn, a.btn:hover{
+			color: #fff;
+		}
+		form h3{
+			font-size: 18px;
+			font-weight: 600;
+			text-transform: uppercase;
+			margin-top:30px;
+		}
+		#coupon{
+			font-weight:600;
+		}
+		#coupon:hover{
+			cursor: pointer;
+			text-decoration: underline;
+		}
+	
+	</style>
+	
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img id="sunport-mark" src="solar-mark.png"><img id="sunport-logo" src="logo-white.png"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+			<li><a href="#">login</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+	
+	
+	<div class="header">
+		<div class="container">
+			<h4 class="text-center">SOLAR PAGEVIEWS</h4>
+		</div>
+	</div>
+
+	<div class="content">
+    <div class="container body">
+
+		<div class="row">
+			<div class="col-xs-12 col-md-8 col-lg-9 main" >
+			
+				<div class="embed-responsive embed-responsive-16by9">
+				  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/kQa7tRqcGsM" frameborder="0"></iframe>
+				</div>
+			
+				<h2>Overview</h2>
+				<p>Solar Page View uses Javascript and the CloudSolar API to offset the energy consumption of measured viewing activity on a website. 
+				The goal of the system is match the entire energy use of the client-side browser display with solar energy. The system is focused on 
+				calculating the energy consumption of the client device and specifically the browser. It does not account for the energy use of other 
+				programs or activities being performed by the client device. Likewise, the algorithm does not account for server-side or network 
+				transmission energy consumption.</p>
+				<p>In this way, Solar Page View demonstrates a simple, novel, and useful method for websites to proactively account for the energy 
+				consumption they cause on the remote end and compensate with solar.</p>
+				
+				<h2>How it Works</h2>
+				<p>The technique utilized for calculating a tab’s energy usage is to start with conservative estimates and reduce these numbers based on 
+				actual information gathered from the client. The system combines three different factors to measure the tab's energy consumption: the 
+				environment, page weight, and page complexity. These three factors combine to calculate the instantaneous power consumption of a browser view.</p>
+				<p>As time on the page passes, the script aggregates this power measurement across time to judge the total energy consumption of a view or 
+				session. The script updates roughly once per second and adjusts its burn rate locally based on detected changes to the browser tab. This 
+				approach provides for the most accurate measurement possible, while falling back to conservative defaults in the event of incomplete information, 
+				ensuring that at all times the proper amount of energy is being offset.</p>
+
+				<h2>Simple 2 Step Installation</h2>
+				<ol style="font-weight:600;font-size:20px;">
+					<li>Sign up</li>
+					<li>Add this code to your footer</br></br>
+						<pre>&lt;div id="solarTabTarget"&gt;&lt;/div&gt;</br>&lt;script src="https://cloudsolar.co/js/cloudsolar.js"&gt;&lt;/script&gt;</pre>
+					</li>
+				</ol>
+				
+				<h2>Security</h2>
+				<p>Adding Solar Page Views to your site is a breeze. Just choose which display option you prefer then add a single line of code wherever you want
+				the solar mark to show up (typically this is done in the footer). Everything else happens automatically.</p>
+				<p>All possible steps have been taken to ensure that this service is secure and easy to implement.</p>
+				<ul>
+					<li>Communication with CloudSolar is encrypted using the latest version of SSL or TLS supported by the client browser.</li>
+					<li>The script does scan the entire webpage, but only to weigh it and identify certain types of elements. The script has no awareness of the 
+					human context of a page, the information displayed on a page, or its semantic meaning. It does not scrape page data or take any information 
+					from input fields or forms in the page; it simply measures and counts the page elements. </li>
+					<li>Domains must register with CloudSolar to use this service. After registration their account can be viewed and managed through an online portal.</li>
+				</ul>
+				
+				
+				<h2>Pricing</h2>
+				<table class="table table-striped" style="text-align:center;">
+					<thead>
+						<tr>
+							<th></th>
+							<th style="text-align:center;">Limited Plan</th> 
+							<th style="text-align:center;">Professional Plan</th> 
+							<th style="text-align:center;">Premium Plan</th> 
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="row">monthly pageviews</th>
+							<td>1,000</td>
+							<td>20,000</td>
+							<td>100,000</td>
+						</tr>
+						<tr>
+							<th scope="row">personalized support</th>
+							<td></td>
+							<td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+							<td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+						</tr>
+						<tr>
+							<th scope="row">display customization</th>
+							<td></td>
+							<td></td>
+							<td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+						</tr>
+						<tr>
+							<th scope="row">paid quarterly</th>
+							<td style="font-weight:600;font-size:24px;">$0.88 / month</td>
+							<td style="font-weight:600;font-size:24px;">$2.98 / month</td>
+							<td style="font-weight:600;font-size:24px;">$9.98 / month</td>
+						</tr>
+					</tbody>
+				</table>
+				<p>* Multiple sites? More than 100,000 pageviews / month? <a class="contactUs" href="#contactForm">Contact us</a> for special pricing.</p>
+				<p>* Nonprofit and educational discounts available. <a class="contactUs" href="#contactForm">Contact us</a> to learn more.</p>
+				
+				
+				<div id="contactForm" style="background-color:#ddd;padding:15px;">
+					<form>
+						<center><h2>Contact Us</h2></center>
+						<div class="form-group">
+							<label for="contactName">Name</label>
+							<input type="text" class="form-control" id="contactName" placeholder="Your name">
+						</div>
+						<div class="form-group">
+							<label for="contactEmail">Email</label>
+							<input type="email" class="form-control" id="contactEmail" placeholder="Your email" required>
+						</div>
+						<div class="form-group">
+							<label for="contactWebsite">Website</label>
+							<input type="text" class="form-control" id="contactWebsite" placeholder="Website">
+						</div>
+						<div class="form-group">
+							<label for="contactMessage">Message</label>
+							<textarea id="contactMessage" class="form-control" rows="3" placeholder="Please enter a message..."></textarea>
+						</div>
+						<button type="submit" class="btn btn-primary">Send Message</button>
+					</form>
+				</div>
+				
+				
+				<center>
+					<h3>Try the Professional plan free for 30 days!</h3>
+					<a href="#signupForm" class="btn btn-primary signup" style="margin-top:10px;margin-bottom:30px;">start my free trial</a>
+				</center>
+				
+
+			</div>
+			<div id="signupForm" class="col-xs-12 col-md-4 col-lg-3 sidebar">
+				<h2>Get Started</h2>
+				<form>
+					<div class="form-group">
+						<label for="accountEmail">Your email address</label>
+						<input type="email" class="form-control" id="accountEmail" placeholder="Email">
+					</div>
+					<div class="form-group">
+						<label for="accountEmailVerify">Confirm your email</label>
+						<input type="email" class="form-control" id="accountEmailVerify" placeholder="Email">
+					</div>
+					
+					<h3>Display Options</h3>
+					<div class="form-group">
+						<label for="siteHost">Site Domain</label>
+						<input type="text" class="form-control" id="siteHost" placeholder="examplesite.com">
+					</div>
+					<div class="form-group">
+						<label for="siteName">Display Name (<span id="siteNameLength">0</span>/24)</label>
+						<input type="text" class="form-control" id="siteName" placeholder="Example Site">
+					</div>
+					
+					<div class="radio">
+					  <label>
+						<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+						Yellow Button
+<div id="cs-wrap" style="cursor:pointer;width:160px;height:50px;position:relative;perspective:1000px;">
+  <div id="cs-button" style="position:absolute;width:100%;height:100%;transform-style: preserve-3d;transition: transform 2s;">
+  
+    <figure style="display:block;margin:0;position:absolute;width:160px;height:50px;background-color:#fcc630;box-shadow: 0 2px 0 #d29b03;transform: rotateX(0deg) translateZ(2px);">
+      <div style="position:absolute;width:40px;height:40px;margin:5px;">
+        <svg viewBox="0 0 400 400">
+          <circle cx="200" cy="200" r="160" fill="#fff"/>
+          <path id="cs-svg-inner" d="m200.02 26.215c-95.974 0-173.77 77.802-173.77 173.78 0 95.983 77.795 173.78 173.77 173.78 95.974 0 173.77-77.802 173.77-173.78 0-95.983-77.795-173.78-173.77-173.78zm88.641 70.131h8.4064c0.79454 0 1.1492 0.48255 0.92224 1.277l-32.03 85.456c-0.22703 0.90823-0.87979 1.2416-1.5607 1.2416h-8.4066c-0.79454 0-1.1492-0.44704-0.92224-1.2416l31.782-85.456c0.34052-0.90812 0.9009-1.277 1.8091-1.277zm-142.09 0.1419c10.102 0 17.26 4.4058 19.757 12.806 1.0216 3.1785 1.3479 6.5912 1.3479 31.11 0 24.519-0.32632 27.932-1.3479 31.11-2.4971 8.3999-9.6546 12.806-19.757 12.806-10.102 0-17.146-4.5196-19.757-12.806-0.90804-3.1786-1.3479-6.5912-1.3479-31.11 0-24.519 0.43235-27.932 1.4544-31.11 2.6103-8.2864 9.5489-12.806 19.65-12.806zm54.696 0c10.102 0 17.26 4.4058 19.757 12.806 1.0215 3.1785 1.3834 6.5912 1.3834 31.11 0 24.519-0.36186 27.932-1.3834 31.11-2.4971 8.3999-9.655 12.806-19.757 12.806-10.102 0-17.111-4.5196-19.722-12.806-1.0219-3.1786-1.3834-6.5912-1.3834-31.11 0-24.519 0.46822-27.932 1.4898-31.11 2.6106-8.2864 9.5128-12.806 19.615-12.806zm51.999 0.3192c6.9238 0 11.358 3.2991 12.947 8.4073 0.90803 2.4972 1.0287 4.4342 1.0287 14.083 0 9.8757-0.12062 11.692-1.0287 14.189-1.5891 5.2214-6.0229 8.2653-12.947 8.2653-6.8103 0-11.251-3.1571-12.84-8.2653-0.90814-2.4977-1.135-4.4272-1.135-14.189 0-9.6488 0.22691-11.586 1.135-14.083 1.5889-5.2217 6.0299-8.4073 12.84-8.4073zm-155.4 0.56758h12.486c0.79454 0 1.2415 0.44691 1.2415 1.2416v83.327c0 0.79483-0.44699 1.2416-1.2415 1.2416h-13.266c-0.79454 0-1.2414-0.44702-1.2414-1.2416v-66.513h-0.35482l-10.677 7.3785c-0.68103 0.45406-1.3479 0.24121-1.3479-0.78042v-13.622c0-0.90812 0.22701-1.3764 1.1351-2.0575l11.102-8.1589c0.79419-0.45406 1.2556-0.81595 2.1636-0.81595zm155.4 8.4073c-1.4752 0-2.3907 0.78042-2.7312 1.9156-0.22725 0.79461-0.31919 1.8446-0.31919 11.493 0 9.8758 0.0919 10.77 0.31919 11.564 0.3405 1.1352 1.2559 1.8091 2.7312 1.8091 1.4757 0 2.3908-0.67393 2.7313-1.8091 0.22735-0.7946 0.3193-1.8022 0.3193-11.564 0-9.6488-0.092-10.699-0.3193-11.493-0.34052-1.1352-1.2556-1.9156-2.7313-1.9156zm-106.59 4.5406c-2.4971 0-4.1855 1.2557-4.753 3.2991-0.34052 1.2483-0.46118 2.7172-0.46118 26.782 0 24.065 0.12063 25.534 0.46118 26.782 0.56753 2.0434 2.2559 3.2991 4.753 3.2991 2.6106 0 4.221-1.2557 4.7886-3.2991 0.34051-1.2483 0.42564-2.7172 0.42564-26.782 0-24.065-0.0851-25.534-0.42564-26.782-0.68126-2.0434-2.2914-3.2991-4.7886-3.2991zm54.731 0c-2.4974 0-4.221 1.2557-4.7886 3.2991-0.34051 1.2483-0.46105 2.7172-0.46105 26.782 0 24.065 0.1205 25.534 0.46105 26.782 0.56752 2.0434 2.1778 3.2991 4.7886 3.2991 2.6103 0 4.1854-1.2557 4.7529-3.2991 0.34063-1.2483 0.46118-2.7172 0.46118-26.782 0-24.065-0.1205-25.534-0.46118-26.782-0.68091-2.0434-2.2563-3.2991-4.7529-3.2991zm98.182 28.734c6.9237 0 11.322 3.1571 12.911 8.2653 0.9077 2.4973 1.0286 4.4272 1.0286 14.189 0 9.6488-0.12087 11.586-1.0286 14.083-1.5892 5.2216-5.9875 8.4073-12.911 8.4073-6.8103 0-11.251-3.2991-12.84-8.4073-0.90804-2.4973-1.135-4.3207-1.135-14.083 0-9.8757 0.22701-11.692 1.135-14.189 1.5892-5.2214 6.0301-8.2653 12.84-8.2653zm-0.53213 9.0812c-1.1669 0.14587-1.9012 0.81595-2.1992 1.8092-0.227 0.79426-0.3547 1.802-0.3547 11.564 0 9.6488 0.1277 10.663 0.3547 11.458 0.34053 1.1351 1.2556 1.9511 2.7313 1.9511 1.4756 0 2.3551-0.81596 2.6958-1.9511 0.22666-0.79449 0.35459-1.8092 0.35459-11.458 0-9.8755-0.12803-10.77-0.35459-11.564-0.34064-1.1352-1.2202-1.8092-2.6958-1.8092-0.18445 0-0.36538-0.0205-0.53213 0zm-149.08 70.238c10.102 0 16.813 4.5406 19.651 13.054 1.2481 3.519 1.5607 6.7116 1.5607 26.463 0 19.752-0.31258 22.944-1.5607 26.463-2.8376 8.5137-9.6618 13.054-19.651 13.054-10.102 0-16.813-4.5406-19.65-13.054-1.2488-3.5189-1.5607-6.7115-1.5607-26.463s0.3119-22.944 1.5607-26.463c2.8376-8.5137 9.6627-13.054 19.65-13.054zm-49.268 0.14189c13.394 0 19.757 7.0171 20.324 19.049 0 0.6811-0.34755 1.1282-1.0286 1.2416l-11.563 1.8446c-0.68103 0.1135-1.2414-0.24122-1.2414-0.92231-0.11375-5.5624-2.0502-8.4073-6.1364-8.4073-3.9727 0-5.9235 2.5116-5.9235 7.7334 0 5.789 1.2556 7.5843 7.2714 9.968l4.6467 1.8446c10.555 4.0866 14.543 9.7623 14.543 22.703 0.22758 15.665-5.7883 23.838-20.998 23.838-13.961 0-20.559-7.4069-20.786-20.575 0-0.68098 0.24176-1.1281 0.92212-1.2416l12.131-1.9154c0.7942-0.1135 1.2769 0.2058 1.2769 0.88679 0.22667 7.1516 2.241 10.004 6.6684 10.004 4.1994 0 6.1363-2.1498 6.1363-9.1876 0-6.8109-1.3412-9.1947-7.1295-11.352l-4.6821-1.8092c-11.011-4.3136-14.756-10.01-14.756-22.384 0-13.849 6.7039-21.32 20.324-21.32zm80.944 0.99326h12.486c0.68102 0 1.135 0.45418 1.135 1.1352v61.759c0 0.45451 0.21985 0.67405 0.67387 0.67405h19.509c0.68059 0 1.1351 0.45417 1.1351 1.1352v11.139c0 0.68099-0.45447 1.1352-1.1351 1.1352h-33.803c-0.68102 0-1.135-0.45417-1.135-1.1352v-74.707c0-0.68097 0.45403-1.1352 1.1351-1.1352zm56.185 0h13.372c0.68058 0 1.1634 0.45418 1.2769 1.1352l16.458 74.601c0.1135 0.68063-0.24097 1.1352-0.92234 1.1352h-12.486c-0.79443 0-1.1279-0.45453-1.2414-1.1352l-2.5183-13.87h-14.507l-2.6248 13.87c-0.1135 0.68063-0.44665 1.1352-1.2415 1.1352h-12.486c-0.68069 0-1.036-0.45453-0.92211-1.1352l16.6-74.601c0.2269-0.68097 0.56038-1.1352 1.2414-1.1352zm38.485 0h18.267c13.734 0 22.453 6.4917 22.453 23.519 0 9.7619-3.2846 15.984-8.6194 19.617l10.57 32.6c0.227 0.56758 0 1.1352-0.56753 1.1352h-13.514c-0.68069 0-1.0144-0.24134-1.2414-0.92244l-8.7611-29.159h-4.292c-0.45401 0-0.67387 0.21977-0.67387 0.67395v28.272c0 0.68063-0.45448 1.1352-1.135 1.1352h-12.486c-0.68104 0-1.1351-0.45453-1.1351-1.1352v-74.601c0-0.68097 0.45402-1.1352 1.1351-1.1352zm-126.35 12.38c-2.8376 0-4.782 1.6031-5.4623 3.7603-0.56752 1.8158-0.78046 3.7317-0.78046 22.348 0 18.617 0.21294 20.568 0.78046 22.384 0.68035 2.1569 2.6247 3.7247 5.4623 3.7247 2.8376-0.1135 4.7812-1.5678 5.4626-3.7247 0.56752-1.8161 0.78024-3.7669 0.78024-22.384 0-18.617-0.21272-20.532-0.78024-22.348-0.68103-2.1572-2.6249-3.7603-5.4626-3.7603zm140.64 0.56756c-0.45402 0-0.67388 0.21989-0.67388 0.67406v19.652c0 0.45407 0.21986 0.67394 0.67388 0.67394h3.2988c5.7883 0.1135 8.2646-2.2561 8.2646-10.429 0-8.06-2.4762-10.571-8.2646-10.571zm-46.324 10.465-5.1077 26.676h10.322l-4.8595-26.676z" fill-rule="evenodd"/>
+          <path id="cs-svg-ring" fill="none" stroke="#000" stroke-width="17" stroke-dasharray="1150" d="M 200,9 a 191,191 0 1,1 0,382 a 191,191 0 1,1 0,-382 "><animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 200 200" to="360 200 200" dur="3s" repeatCount="indefinite"/></path>
+        </svg>
+      </div>
+      <div style="position:absolute;right:0;width:110px;padding:5px;padding-top:7px;text-align:center;margin:0;">
+        <h6 style="font-family:sans-serif;color:#000;font-size:9px;font-weight:600;margin:0;">Your view of</br><span class="demoWebsiteName">[website name here]</span></br>uses solar</h6>
+      </div>
+    </figure>
+	
+    <figure style="backface-visibility: hidden;display:block;margin:0;position:absolute;width:160px;height:50px;background-color:#d29b03;box-shadow: 0 2px 0 #fcc630;transform: rotateX(180deg) translateZ(2px);">
+		<div style="text-align:center;margin:0 5px;padding-bottom:1px;border:1px solid #fff;border-style:none none solid none;">
+			<h6 style="font-family:sans-serif;font-size:9px;color:#fff;font-weight:600;margin:0;text-transform:uppercase;">Solar Used</h6>
+		</div>
+		<table style="font-family:sans-serif;font-size:9px;font-weight:400;width:100%;color:#000;">
+			<tr>
+				<td style="text-align:right;padding-right:5px;font-weight:600;">9,987,654 SJ</td>
+				<td>site total</td>
+			</tr>
+			<tr>
+				<td style="text-align:right;padding-right:5px;font-weight:600;">+ <span id="csSJ">103</span> SJ</td>
+				<td>this visit</td>
+			</tr>
+		</table>
+	</figure>
+	
+	<figure  style="display:block;margin:0;position:absolute;width:160px;height:4px;background-color:#d29b03;transform: rotateX(-90deg) translateZ(48px);"></figure>
+  </div>
+  
+  <script>
+  const csWrap = document.getElementById('cs-wrap');
+  const csFlip = document.getElementById('cs-button').style;
+  csWrap.addEventListener('mouseenter',()=>{csFlip.transform='rotateX(180deg)';});
+  csWrap.addEventListener('mouseleave',()=>{csFlip.transform='rotateX(0deg)';});
+  
+  const csSJ = document.getElementById('csSJ');
+  const csInterval = setInterval(sjIncrement, 2500);
+  function sjIncrement(){
+	csSJ.innerText = parseInt(csSJ.innerText) + 3;
+  }
+  </script>
+</div>
+					  </label>
+					</div>
+					<div class="radio">
+					  <label>
+						<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+						Grey Button
+<div id="inv-cs-wrap" style="cursor:pointer;width:160px;height:50px;position:relative;perspective:1000px;">
+  <div id="inv-cs-button" style="position:absolute;width:100%;height:100%;transform-style: preserve-3d;transition: transform 2s;">
+  
+    <figure style="display:block;margin:0;position:absolute;width:160px;height:50px;background-color:#353535;box-shadow: 0 2px 0 #777;transform: rotateX(0deg) translateZ(2px);">
+      <div style="position:absolute;width:40px;height:40px;margin:5px;">
+        <svg viewBox="0 0 400 400">
+          <circle cx="200" cy="200" r="160" fill="#000"/>
+          <path id="inv-cs-svg-inner" fill="#fcc630" d="m200.02 26.215c-95.974 0-173.77 77.802-173.77 173.78 0 95.983 77.795 173.78 173.77 173.78 95.974 0 173.77-77.802 173.77-173.78 0-95.983-77.795-173.78-173.77-173.78zm88.641 70.131h8.4064c0.79454 0 1.1492 0.48255 0.92224 1.277l-32.03 85.456c-0.22703 0.90823-0.87979 1.2416-1.5607 1.2416h-8.4066c-0.79454 0-1.1492-0.44704-0.92224-1.2416l31.782-85.456c0.34052-0.90812 0.9009-1.277 1.8091-1.277zm-142.09 0.1419c10.102 0 17.26 4.4058 19.757 12.806 1.0216 3.1785 1.3479 6.5912 1.3479 31.11 0 24.519-0.32632 27.932-1.3479 31.11-2.4971 8.3999-9.6546 12.806-19.757 12.806-10.102 0-17.146-4.5196-19.757-12.806-0.90804-3.1786-1.3479-6.5912-1.3479-31.11 0-24.519 0.43235-27.932 1.4544-31.11 2.6103-8.2864 9.5489-12.806 19.65-12.806zm54.696 0c10.102 0 17.26 4.4058 19.757 12.806 1.0215 3.1785 1.3834 6.5912 1.3834 31.11 0 24.519-0.36186 27.932-1.3834 31.11-2.4971 8.3999-9.655 12.806-19.757 12.806-10.102 0-17.111-4.5196-19.722-12.806-1.0219-3.1786-1.3834-6.5912-1.3834-31.11 0-24.519 0.46822-27.932 1.4898-31.11 2.6106-8.2864 9.5128-12.806 19.615-12.806zm51.999 0.3192c6.9238 0 11.358 3.2991 12.947 8.4073 0.90803 2.4972 1.0287 4.4342 1.0287 14.083 0 9.8757-0.12062 11.692-1.0287 14.189-1.5891 5.2214-6.0229 8.2653-12.947 8.2653-6.8103 0-11.251-3.1571-12.84-8.2653-0.90814-2.4977-1.135-4.4272-1.135-14.189 0-9.6488 0.22691-11.586 1.135-14.083 1.5889-5.2217 6.0299-8.4073 12.84-8.4073zm-155.4 0.56758h12.486c0.79454 0 1.2415 0.44691 1.2415 1.2416v83.327c0 0.79483-0.44699 1.2416-1.2415 1.2416h-13.266c-0.79454 0-1.2414-0.44702-1.2414-1.2416v-66.513h-0.35482l-10.677 7.3785c-0.68103 0.45406-1.3479 0.24121-1.3479-0.78042v-13.622c0-0.90812 0.22701-1.3764 1.1351-2.0575l11.102-8.1589c0.79419-0.45406 1.2556-0.81595 2.1636-0.81595zm155.4 8.4073c-1.4752 0-2.3907 0.78042-2.7312 1.9156-0.22725 0.79461-0.31919 1.8446-0.31919 11.493 0 9.8758 0.0919 10.77 0.31919 11.564 0.3405 1.1352 1.2559 1.8091 2.7312 1.8091 1.4757 0 2.3908-0.67393 2.7313-1.8091 0.22735-0.7946 0.3193-1.8022 0.3193-11.564 0-9.6488-0.092-10.699-0.3193-11.493-0.34052-1.1352-1.2556-1.9156-2.7313-1.9156zm-106.59 4.5406c-2.4971 0-4.1855 1.2557-4.753 3.2991-0.34052 1.2483-0.46118 2.7172-0.46118 26.782 0 24.065 0.12063 25.534 0.46118 26.782 0.56753 2.0434 2.2559 3.2991 4.753 3.2991 2.6106 0 4.221-1.2557 4.7886-3.2991 0.34051-1.2483 0.42564-2.7172 0.42564-26.782 0-24.065-0.0851-25.534-0.42564-26.782-0.68126-2.0434-2.2914-3.2991-4.7886-3.2991zm54.731 0c-2.4974 0-4.221 1.2557-4.7886 3.2991-0.34051 1.2483-0.46105 2.7172-0.46105 26.782 0 24.065 0.1205 25.534 0.46105 26.782 0.56752 2.0434 2.1778 3.2991 4.7886 3.2991 2.6103 0 4.1854-1.2557 4.7529-3.2991 0.34063-1.2483 0.46118-2.7172 0.46118-26.782 0-24.065-0.1205-25.534-0.46118-26.782-0.68091-2.0434-2.2563-3.2991-4.7529-3.2991zm98.182 28.734c6.9237 0 11.322 3.1571 12.911 8.2653 0.9077 2.4973 1.0286 4.4272 1.0286 14.189 0 9.6488-0.12087 11.586-1.0286 14.083-1.5892 5.2216-5.9875 8.4073-12.911 8.4073-6.8103 0-11.251-3.2991-12.84-8.4073-0.90804-2.4973-1.135-4.3207-1.135-14.083 0-9.8757 0.22701-11.692 1.135-14.189 1.5892-5.2214 6.0301-8.2653 12.84-8.2653zm-0.53213 9.0812c-1.1669 0.14587-1.9012 0.81595-2.1992 1.8092-0.227 0.79426-0.3547 1.802-0.3547 11.564 0 9.6488 0.1277 10.663 0.3547 11.458 0.34053 1.1351 1.2556 1.9511 2.7313 1.9511 1.4756 0 2.3551-0.81596 2.6958-1.9511 0.22666-0.79449 0.35459-1.8092 0.35459-11.458 0-9.8755-0.12803-10.77-0.35459-11.564-0.34064-1.1352-1.2202-1.8092-2.6958-1.8092-0.18445 0-0.36538-0.0205-0.53213 0zm-149.08 70.238c10.102 0 16.813 4.5406 19.651 13.054 1.2481 3.519 1.5607 6.7116 1.5607 26.463 0 19.752-0.31258 22.944-1.5607 26.463-2.8376 8.5137-9.6618 13.054-19.651 13.054-10.102 0-16.813-4.5406-19.65-13.054-1.2488-3.5189-1.5607-6.7115-1.5607-26.463s0.3119-22.944 1.5607-26.463c2.8376-8.5137 9.6627-13.054 19.65-13.054zm-49.268 0.14189c13.394 0 19.757 7.0171 20.324 19.049 0 0.6811-0.34755 1.1282-1.0286 1.2416l-11.563 1.8446c-0.68103 0.1135-1.2414-0.24122-1.2414-0.92231-0.11375-5.5624-2.0502-8.4073-6.1364-8.4073-3.9727 0-5.9235 2.5116-5.9235 7.7334 0 5.789 1.2556 7.5843 7.2714 9.968l4.6467 1.8446c10.555 4.0866 14.543 9.7623 14.543 22.703 0.22758 15.665-5.7883 23.838-20.998 23.838-13.961 0-20.559-7.4069-20.786-20.575 0-0.68098 0.24176-1.1281 0.92212-1.2416l12.131-1.9154c0.7942-0.1135 1.2769 0.2058 1.2769 0.88679 0.22667 7.1516 2.241 10.004 6.6684 10.004 4.1994 0 6.1363-2.1498 6.1363-9.1876 0-6.8109-1.3412-9.1947-7.1295-11.352l-4.6821-1.8092c-11.011-4.3136-14.756-10.01-14.756-22.384 0-13.849 6.7039-21.32 20.324-21.32zm80.944 0.99326h12.486c0.68102 0 1.135 0.45418 1.135 1.1352v61.759c0 0.45451 0.21985 0.67405 0.67387 0.67405h19.509c0.68059 0 1.1351 0.45417 1.1351 1.1352v11.139c0 0.68099-0.45447 1.1352-1.1351 1.1352h-33.803c-0.68102 0-1.135-0.45417-1.135-1.1352v-74.707c0-0.68097 0.45403-1.1352 1.1351-1.1352zm56.185 0h13.372c0.68058 0 1.1634 0.45418 1.2769 1.1352l16.458 74.601c0.1135 0.68063-0.24097 1.1352-0.92234 1.1352h-12.486c-0.79443 0-1.1279-0.45453-1.2414-1.1352l-2.5183-13.87h-14.507l-2.6248 13.87c-0.1135 0.68063-0.44665 1.1352-1.2415 1.1352h-12.486c-0.68069 0-1.036-0.45453-0.92211-1.1352l16.6-74.601c0.2269-0.68097 0.56038-1.1352 1.2414-1.1352zm38.485 0h18.267c13.734 0 22.453 6.4917 22.453 23.519 0 9.7619-3.2846 15.984-8.6194 19.617l10.57 32.6c0.227 0.56758 0 1.1352-0.56753 1.1352h-13.514c-0.68069 0-1.0144-0.24134-1.2414-0.92244l-8.7611-29.159h-4.292c-0.45401 0-0.67387 0.21977-0.67387 0.67395v28.272c0 0.68063-0.45448 1.1352-1.135 1.1352h-12.486c-0.68104 0-1.1351-0.45453-1.1351-1.1352v-74.601c0-0.68097 0.45402-1.1352 1.1351-1.1352zm-126.35 12.38c-2.8376 0-4.782 1.6031-5.4623 3.7603-0.56752 1.8158-0.78046 3.7317-0.78046 22.348 0 18.617 0.21294 20.568 0.78046 22.384 0.68035 2.1569 2.6247 3.7247 5.4623 3.7247 2.8376-0.1135 4.7812-1.5678 5.4626-3.7247 0.56752-1.8161 0.78024-3.7669 0.78024-22.384 0-18.617-0.21272-20.532-0.78024-22.348-0.68103-2.1572-2.6249-3.7603-5.4626-3.7603zm140.64 0.56756c-0.45402 0-0.67388 0.21989-0.67388 0.67406v19.652c0 0.45407 0.21986 0.67394 0.67388 0.67394h3.2988c5.7883 0.1135 8.2646-2.2561 8.2646-10.429 0-8.06-2.4762-10.571-8.2646-10.571zm-46.324 10.465-5.1077 26.676h10.322l-4.8595-26.676z" fill-rule="evenodd"/>
+          <path id="inv-cs-svg-ring" fill="none" stroke="#fcc630" stroke-width="17" stroke-dasharray="1150" d="M 200,9 a 191,191 0 1,1 0,382 a 191,191 0 1,1 0,-382 "><animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 200 200" to="360 200 200" dur="3s" repeatCount="indefinite"/></path>
+        </svg>
+      </div>
+      <div style="position:absolute;right:0;width:110px;padding:5px;padding-top:7px;text-align:center;margin:0;">
+        <h6 style="font-family:sans-serif;color:#fff;font-size:9px;font-weight:600;margin:0;">Your view of</br><span class="demoWebsiteName">[website name here]</span></br>uses solar</h6>
+      </div>
+    </figure>
+	
+    <figure style="backface-visibility: hidden;display:block;margin:0;position:absolute;width:160px;height:50px;background-color:#777;box-shadow: 0 2px 0 #353535;transform: rotateX(180deg) translateZ(2px);">
+		<div style="text-align:center;margin:0 5px;padding-bottom:1px;border:1px solid #fff;border-style:none none solid none;">
+			<h6 style="font-family:sans-serif;font-size:9px;color:#fff;font-weight:600;margin:0;text-transform:uppercase;">Solar Used</h6>
+		</div>
+		<table style="font-family:sans-serif;font-size:9px;font-weight:400;width:100%;color:#fff;">
+			<tr>
+				<td style="text-align:right;padding-right:5px;font-weight:600;color:#fcc630;">9,987,654 SJ</td>
+				<td>site total</td>
+			</tr>
+			<tr>
+				<td style="text-align:right;padding-right:5px;font-weight:600;color:#fcc630;">+ <span id="inv-csSJ">103</span> SJ</td>
+				<td>this visit</td>
+			</tr>
+		</table>
+	</figure>
+	
+	<figure  style="display:block;margin:0;position:absolute;width:160px;height:4px;background-color:#777;transform: rotateX(-90deg) translateZ(48px);"></figure>
+  </div>
+  
+  <script>
+  const csWrap2 = document.getElementById('inv-cs-wrap');
+  const csFlip2 = document.getElementById('inv-cs-button').style;
+  csWrap2.addEventListener('mouseenter',()=>{csFlip2.transform='rotateX(180deg)';});
+  csWrap2.addEventListener('mouseleave',()=>{csFlip2.transform='rotateX(0deg)';});
+  
+  const csSJ2 = document.getElementById('inv-csSJ');
+  const csInterval2 = setInterval(sjIncrement2, 2500);
+  function sjIncrement2(){
+	csSJ2.innerText = parseInt(csSJ.innerText) + 3;
+  }
+  </script>
+</div>
+					  </label>
+					</div>
+					
+					<h3>Plan Level</h3>
+					<div class="checkbox">
+						<label style="font-weight:600;">
+							<input type="checkbox" id="freeTrial" value="trial"> Yes, sign me up for the free trial!
+						</label>
+					</div>
+					
+					<div class="radio">
+					  <label>
+						<input type="radio" name="planRadios" id="planRadios1" value="option1">
+						1,000 monthly pageviews
+					  </label>
+					</div>
+					<div class="radio">
+					  <label>
+						<input type="radio" name="planRadios" id="planRadios2" value="option2">
+						20,000 monthly pageviews
+					  </label>
+					</div>
+					<div class="radio">
+					  <label>
+						<input type="radio" name="planRadios" id="planRadios3" value="option3">
+						100,000 monthly pageviews
+					  </label>
+					</div>
+					
+					<div id="billingInfo" class="hidden">
+					<h3>Billing Info</h3>
+					<p>No charges will be made during the trial period. Have a <span id="coupon">coupon code</span>?</p>
+					<div class="form-group" style="display:none;">
+						<label for="couponCode">Coupon Code</label>
+						<input type="text" class="form-control" id="couponCode" placeholder="Enter your code here">
+					</div>
+					<div id="stripe">
+					<div class="form-group">
+						<label for="cardName">Name</label>
+						<input type="text" class="form-control" id="cardName" placeholder="Billing Name">
+					</div>
+					<div class="form-group">
+						<label for="cardNum">Card Number</label>
+						<input type="text" class="form-control" id="cardNum" placeholder="**** **** **** ****">
+					</div>
+					<div class="form-group" style="width:70%;display:inline-block;">
+						<label for="cardExp">Expiration Date</label>
+						<input type="text" class="form-control" id="cardExp" placeholder="MM-DD-YYYY">
+					</div>
+					<div class="form-group" style="width:calc(30% - 4px);display:inline-block;">
+						<label for="cardCcv">CCV</label>
+						<input type="text" class="form-control" id="cardCcv" placeholder="***">
+					</div>
+					<div class="form-group" style="width:50%;">
+						<label for="cardZip">Billing Zip Code</label>
+						<input type="text" class="form-control" id="cardZip" placeholder="*****">
+					</div>
+					</div>
+					</div>
+					
+					<button type="submit" class="btn btn-primary btn-block" style="margin-top:30px;margin-bottom:20px;">Create Account</button>
+				</form>
+				
+					
+					
+					
+					
+			</div>
+		</div>
+    </div>
+	</div>
+	
+	
+	<div id="footer">
+	    <div class="container">
+		<p>&copy; CloudSolar 2016</p>
+		</div>
+	</div>
+	
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	
+	<script>
+	function scrollTo(e){
+		e.preventDefault();
+		const t = document.querySelector(this.outerHTML.match(/#\w*/));
+		t.style.display = "inherit";
+		window.scroll({
+			top: t.offsetTop - 50,
+			behavior: 'smooth'
+		});
+		setTimeout(function(){
+			t.querySelector('input').focus();
+		},500);
+	}
+	document.querySelector("#contactForm").style.display = "none";
+	document.querySelectorAll(".contactUs").forEach(a => a.addEventListener('click',scrollTo));
+	document.querySelectorAll(".signup").forEach(a => a.addEventListener('click',scrollTo));
+	
+	function emailCheck(){
+		const a = document.querySelector("#accountEmail");
+		const b = document.querySelector("#accountEmailVerify");
+		
+		if (! (a.value && b.value)) { //either input is empty -- reset
+			a.parentElement.classList.remove('has-error');
+			a.parentElement.classList.remove('has-success');
+			b.parentElement.classList.remove('has-error');
+			b.parentElement.classList.remove('has-success');
+		} else if (a.value.trim() != b.value.trim()) { //inputs do not match -- error
+			a.parentElement.classList.add('has-error');
+			a.parentElement.classList.remove('has-success');
+			b.parentElement.classList.add('has-error');
+			b.parentElement.classList.remove('has-success');
+		} else { //inputs match -- success
+			a.parentElement.classList.remove('has-error');
+			a.parentElement.classList.add('has-success');
+			b.parentElement.classList.remove('has-error');
+			b.parentElement.classList.add('has-success');
+		}
+	}
+	document.querySelector("#accountEmail").addEventListener('change',emailCheck);
+	document.querySelector("#accountEmailVerify").addEventListener('change',emailCheck);
+	
+	function siteCheck(){
+		const a = document.querySelector("#siteHost");
+		result = a.value.toLowerCase().trim().replace(/^(https?\:\/\/)?(www\.)?/, '');
+		if (result.match(/\w+\.\w+/)) { //looks kind of like a URL -- test passes
+			a.parentElement.classList.remove('has-error');
+			a.parentElement.classList.add('has-success');
+		} else {
+			a.parentElement.classList.add('has-error');
+			a.parentElement.classList.remove('has-success');
+		}
+	}
+	document.querySelector("#siteHost").addEventListener('change',siteCheck);
+	
+	function nameCheck(){
+		const a = document.querySelector("#siteName");
+		const b = document.querySelector("#siteNameLength");
+		const buttons = document.querySelectorAll(".demoWebsiteName");
+		
+		b.innerText = a.value.length;
+		buttons.forEach(button => button.innerText = a.value);
+		
+		if (a.value.length > 0 && a.value.length < 25) {
+			a.parentElement.classList.remove('has-error');
+			a.parentElement.classList.add('has-success');
+		} else {
+			a.parentElement.classList.add('has-error');
+			a.parentElement.classList.remove('has-success');
+		}
+	}
+	document.querySelector("#siteName").addEventListener('keyup',nameCheck);
+	
+	function getFreeTrial(){
+		if (!this.checked) return;
+		document.querySelector("#planRadios2").checked = true;
+		document.querySelector("#billingInfo").classList.remove("hidden");
+	}
+	document.querySelector("#freeTrial").addEventListener('change',getFreeTrial);
+	
+	function enterCoupon(){
+		const a = document.querySelector("#couponCode");
+		a.parentElement.style.display = 'inherit';
+		a.focus();
+		a.addEventListener('change',useCoupon);
+	}
+	function useCoupon(){
+		const a = document.querySelector("#couponCode");
+		//validate a.value
+		//show code status
+		a.parentElement.classList.add('has-success');
+		a.parentElement.classList.remove('has-error');
+		a.previousElementSibling.innerText = 'Code Verified - Free Professional Plan'; // message shows type of discount
+		//if code is for a free plan, hide the credit card fields
+		document.querySelector('#stripe').classList.add('hidden');
+	}
+	document.querySelector("#coupon").addEventListener('click',enterCoupon);
+	
+	</script>
+	
+</body>
+</html>

@@ -1,0 +1,191 @@
+<svg width="812.6" height="693.6" version="1.1" viewBox="0 0 215.00002 183.51425" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(28.125 -126.68)">
+  <g fill="none" stroke="#f00">
+   <g transform="matrix(.29238 .12218 -.12434 .28731 2009.2 957.53)" stroke-width="4.2667">
+    <g transform="translate(175.47 -81.041)">
+     <circle cx="-6867.1" cy="357.31" r="27.338" opacity=".94" stroke-linecap="round" stroke-linejoin="round"/>
+     <path d="m-6867.1 399.64v18.926"/>
+     <path d="m-6867.1 296.07v18.926"/>
+    </g>
+    <g transform="rotate(90 -6738.9 404.53)">
+     <path d="m-6867.1 399.64v18.926"/>
+     <path d="m-6867.1 296.07v18.926"/>
+    </g>
+    <g transform="rotate(45 -6691.7 276.27)">
+     <g transform="translate(175.47 -81.041)">
+      <path d="m-6867.1 399.64v18.926"/>
+      <path d="m-6867.1 296.07v18.926"/>
+     </g>
+     <g transform="rotate(90 -6738.9 404.53)">
+      <path d="m-6867.1 399.64v18.926"/>
+      <path d="m-6867.1 296.07v18.926" opacity=".9"/>
+     </g>
+    </g>
+   </g>
+   <g transform="matrix(.31772 0 0 .31221 2199.4 107.74)" stroke-width="4.2667">
+    <path d="m-6722 475.68 56.506 11.152-26.766 84.759-56.134-12.639z" stroke-linejoin="round"/>
+    <g>
+     <path d="m-6693.7 480.88-26.394 85.131"/>
+     <path d="m-6731.3 503.93 56.134 10.781"/>
+     <path d="m-6739.5 531.44 55.762 11.152"/>
+    </g>
+   </g>
+   <path d="m100.36 273.37c19.449 5.6162 27.163-14.534 25.515-55.244" stroke-width="1.1061"/>
+  </g>
+  <g transform="matrix(1.2008 0 0 1.18 53.389 103.49)" fill="none" stroke="#000" stroke-width="1.0583">
+   <path d="m65.022 109.71v-25.324h13.965v25.391"/>
+   <path d="m56.269 90.2h31.471"/>
+   <path d="m60.098 90.2v3.5199"/>
+   <path d="m57.984 93.696h4.2286"/>
+   <path d="m58.326 95.187h3.5435"/>
+   <path d="m58.326 96.677h3.5435"/>
+   <g transform="translate(11.906)">
+    <path d="m60.098 90.2v3.5199"/>
+    <path d="m57.984 93.696h4.2286"/>
+    <path d="m58.326 95.187h3.5435"/>
+    <path d="m58.326 96.677h3.5435"/>
+   </g>
+   <g transform="translate(23.813)">
+    <path d="m60.098 90.2v3.5199"/>
+    <path d="m57.984 93.696h4.2286"/>
+    <path d="m58.326 95.187h3.5435"/>
+    <path d="m58.326 96.677h3.5435"/>
+   </g>
+  </g>
+  <ellipse cx="101.24" cy="273.65" rx="1.2651" ry="1.1939" fill="#00f"/>
+  <g transform="matrix(.31772 0 0 .31221 2177.7 107.74)" fill="none" stroke="#f00" stroke-width="4.2667">
+   <path d="m-6722 475.68 56.506 11.152-26.766 84.759-56.134-12.639z" stroke-linejoin="round"/>
+   <g>
+    <path d="m-6693.7 480.88-26.394 85.131"/>
+    <path d="m-6731.3 503.93 56.134 10.781"/>
+    <path d="m-6739.5 531.44 55.762 11.152"/>
+   </g>
+  </g>
+  <g transform="matrix(.31772 0 0 .31221 2221.1 107.74)" fill="none" stroke="#f00" stroke-width="4.2667">
+   <path d="m-6722 475.68 56.506 11.152-26.766 84.759-56.134-12.639z" stroke-linejoin="round"/>
+   <g>
+    <path d="m-6693.7 480.88-26.394 85.131"/>
+    <path d="m-6731.3 503.93 56.134 10.781"/>
+    <path d="m-6739.5 531.44 55.762 11.152"/>
+   </g>
+  </g>
+  <g fill="none" stroke="#008000">
+   <path d="m27.567 230.94 33.308 47.587" stroke-dasharray="2.68762432, 1.34381217" stroke-width="1.3438"/>
+   <path d="m30.49 227.75 46.597 33.316" stroke-dasharray="2.68788881, 1.34394441" stroke-width="1.3439"/>
+   <path d="m28.837 229.38 42.581 43.065" stroke-dasharray="2.68762432, 1.34381217" stroke-width="1.3438"/>
+  </g>
+  <g transform="translate(246.44 7.4835)">
+   <path d="m-89.95 151.8a107.5 107.5 0 0 0 -77.116 -32.604 107.5 107.5 0 0 0 -99.317 66.362 107.5 107.5 0 0 0 23.303 117.15l10.607-10.607a92.5 92.5 0 0 1 -3.8e-4 -130.81 92.5 92.5 0 0 1 130.82 0 92.5 92.5 0 0 1 -3.7e-4 130.81l10.607 10.607a107.5 107.5 0 0 0 23.303 -117.15 107.5 107.5 0 0 0 -22.201 -33.757z" fill="#353535"/>
+   <path transform="rotate(135)" d="m370.93-42.165a92.5 92.5 0 0 1 -57.102 85.459 92.5 92.5 0 0 1 -100.81 -20.051 92.5 92.5 0 0 1 -20.051 -100.81 92.5 92.5 0 0 1 85.459 -57.102" fill="none" stroke="#fcc630" stroke-linecap="round" stroke-width="3.4396"/>
+  </g>
+ </g>
+</svg>
+
+
+
+
+
+
+<svg width="100%" height="auto" version="1.1" viewBox="0 0 600 400" stroke="#fff" xmlns="http://www.w3.org/2000/svg">
+<!--original drawing-->
+<g transform="matrix(3.7795 0 0 3.7795 .0030594 -726.48)">
+<g fill="none" stroke-width="4.26">
+<!-- sun -->
+<g transform="matrix(.29238 .12218 -.12434 .28731 2009.2 957.53)">
+<g transform="translate(175.47 -81.041)">
+ <circle cx="-6867.1" cy="357.31" r="27.338" stroke-linecap="round" stroke-linejoin="round"/>
+ <path d="m-6867.1 399.64v18.926"/>
+ <path d="m-6867.1 296.07v18.926"/>
+</g>
+<g transform="rotate(90 -6738.9 404.53)">
+ <path d="m-6867.1 399.64v18.926"/>
+ <path d="m-6867.1 296.07v18.926"/>
+</g>
+<g transform="rotate(45 -6691.7 276.27)">
+ <g transform="translate(175.47 -81.041)">
+  <path d="m-6867.1 399.64v18.926"/>
+  <path d="m-6867.1 296.07v18.926"/>
+ </g>
+ <g transform="rotate(90 -6738.9 404.53)">
+  <path d="m-6867.1 399.64v18.926"/>
+  <path d="m-6867.1 296.07v18.926"/>
+ </g>
+</g>
+</g>
+<!-- solar panels -->
+<g>
+<g transform="matrix(.31772 0 0 .31221 2199.4 107.74)" >
+<path d="m-6722 475.68 56.506 11.152-26.766 84.759-56.134-12.639z" stroke-linejoin="round"/>
+<path d="m-6693.7 480.88-26.394 85.131"/>
+<path d="m-6731.3 503.93 56.134 10.781"/>
+<path d="m-6739.5 531.44 55.762 11.152"/>
+</g>
+<g transform="matrix(.31772 0 0 .31221 2221.4 107.74)">
+<path d="m-6722 475.68 56.506 11.152-26.766 84.759-56.134-12.639z" stroke-linejoin="round"/>
+<path d="m-6693.7 480.88-26.394 85.131"/>
+<path d="m-6731.3 503.93 56.134 10.781"/>
+<path d="m-6739.5 531.44 55.762 11.152"/>
+</g>
+<g transform="matrix(.31772 0 0 .31221 2177.4 107.74)">
+<path d="m-6722 475.68 56.506 11.152-26.766 84.759-56.134-12.639z" stroke-linejoin="round"/>
+<path d="m-6693.7 480.88-26.394 85.131"/>
+<path d="m-6731.3 503.93 56.134 10.781"/>
+<path d="m-6739.5 531.44 55.762 11.152"/>
+</g>
+</g>
+<!-- wire -->
+<path id="cs-svg-wire" d="m100.36 273.37c19.449 5.6162 27.163-14.534 25.515-55.244" stroke-width="1.1061"/>
+</g>
+<!-- electric pole -->
+<g transform="matrix(1.2008 0 0 1.18 53.389 103.49)" fill="none" stroke-width="1.0583">
+<path d="m65.022 109.71v-25.324h13.965v25.391"/>
+<path d="m56.269 90.2h31.471"/>
+<path d="m60.098 90.2v3.5199"/>
+<path d="m57.984 93.696h4.2286"/>
+<path d="m58.326 95.187h3.5435"/>
+<path d="m58.326 96.677h3.5435"/>
+<g transform="translate(11.906)">
+<path d="m60.098 90.2v3.5199"/>
+<path d="m57.984 93.696h4.2286"/>
+<path d="m58.326 95.187h3.5435"/>
+<path d="m58.326 96.677h3.5435"/>
+</g>
+<g transform="translate(23.813)">
+<path d="m60.098 90.2v3.5199"/>
+<path d="m57.984 93.696h4.2286"/>
+<path d="m58.326 95.187h3.5435"/>
+<path d="m58.326 96.677h3.5435"/>
+</g>
+</g>
+<!-- animated electricity dots -->
+<circle cx="" cy="" r="1.25" fill="#fff">
+<animateMotion dur="3s" repeatCount="indefinite">
+  <mpath xlink:href="#cs-svg-wire"/>
+</animateMotion>
+</circle>
+<circle cx="" cy="" r="1.25" fill="#fff">
+<animateMotion dur="3s" begin="1s" repeatCount="indefinite">
+  <mpath xlink:href="#cs-svg-wire"/>
+</animateMotion>
+</circle>
+<circle cx="" cy="" r="1.25" fill="#fff">
+<animateMotion dur="3s" begin="2s" repeatCount="indefinite">
+  <mpath xlink:href="#cs-svg-wire"/>
+</animateMotion>
+</circle>
+<!-- sunrays animate this -->
+<g fill="none" stroke-width="1.3438">
+<path d="m27.567 230.94 33.308 47.587" stroke-dasharray="2.68762432, 1.34381217">
+<animate attributeType="XML" attributeName="stroke-dashoffset" from="4" to="0" dur="1s" repeatCount="indefinite"/>
+</path>
+<path d="m28.837 229.38 42.581 43.065" stroke-dasharray="2.68762432, 1.34381217">
+<animate attributeType="XML" attributeName="stroke-dashoffset" from="4" to="0" dur="1s" repeatCount="indefinite"/>
+</path>
+<path d="m30.49 227.75 46.597 33.316" stroke-dasharray="2.68788881, 1.34394441">
+<animate attributeType="XML" attributeName="stroke-dashoffset" from="4" to="0" dur="1s" repeatCount="indefinite"/>
+</path>
+</g>
+</g>
+</svg>
+
+

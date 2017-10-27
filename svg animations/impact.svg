@@ -1,0 +1,78 @@
+<svg version="1.1" width="100%" height="auto" viewBox="0 0 600 400" stroke="#fff" xmlns="http://www.w3.org/2000/svg">
+ <!-- CO2 belching power plant --> 
+ <g transform="translate(0 -191.17)" fill="none">
+  <path id="smoke-path" d="m191.93 357.82c-15.596-96.136 105.15-119.96 152.53-83.843" stroke="transparent"/>
+  <path d="m232.27 337.1c-5.2891 0-9.5472 4.258-9.5472 9.5472v110.93h-0.80181v-77.403c0-5.2891-4.258-9.5472-9.5472-9.5472h-38.189c-5.2891 0-9.5472 4.258-9.5472 9.5472v171.85c0 5.2891 4.258 9.5472 9.5472 9.5472h251.53c5.2891 0 9.5472-4.258 9.5472-9.5472v-22.413c0.0433-0.35188 0.10565-0.69895 0.10565-1.0629v-86.664c0-4.7309-3.7622-8.5351-8.4656-8.6459v6e-3c-1.0713 0.036-2.1571 0.25523-3.201 0.71479l-42.154 18.566v-10.641c0-4.7309-3.7622-8.5351-8.4656-8.6459v6e-3c-1.0713 0.036-2.1571 0.25522-3.201 0.71479l-42.148 18.56v-10.635c0-4.7309-3.7622-8.5351-8.4656-8.6459v6e-3c-1.0714 0.036-2.157 0.25522-3.201 0.71479l-36.057 15.881v-103.19c0-5.2891-4.258-9.5472-9.5472-9.5472z" stroke-linejoin="round" stroke-width="6"/>
+  <circle cx="" cy="" r="15" stroke="none" fill="#fff" opacity="0">
+	<animate attributeType="XML" attributeName="r" from="15" to="50" dur="5s" repeatCount="indefinite"/>
+	<animate attributeType="XML" attributeName="opacity" from="1" to="0" dur="5s" repeatCount="indefinite"/>
+    <animateMotion dur="5s" repeatCount="indefinite">
+      <mpath xlink:href="#smoke-path"/>
+    </animateMotion>
+  </circle>
+  <circle cx="" cy="" r="15" stroke="none" fill="#fff" opacity="0">
+	<animate attributeType="XML" attributeName="r" from="15" to="50" dur="5s" begin="1s" repeatCount="indefinite"/>
+	<animate attributeType="XML" attributeName="opacity" from="1" to="0" dur="5s" begin="1s" repeatCount="indefinite"/>
+    <animateMotion dur="5s" begin="1s" repeatCount="indefinite">
+      <mpath xlink:href="#smoke-path"/>
+    </animateMotion>
+  </circle>
+  <circle cx="" cy="" r="15" stroke="none" fill="#fff" opacity="0">
+	<animate attributeType="XML" attributeName="r" from="15" to="50" dur="5s" begin="2s" repeatCount="indefinite"/>
+	<animate attributeType="XML" attributeName="opacity" from="1" to="0" dur="5s" begin="2s" repeatCount="indefinite"/>
+    <animateMotion dur="5s" begin="2s" repeatCount="indefinite">
+      <mpath xlink:href="#smoke-path"/>
+    </animateMotion>
+  </circle>
+  <circle cx="" cy="" r="15" stroke="none" fill="#fff" opacity="0">
+	<animate attributeType="XML" attributeName="r" from="15" to="50" dur="5s" begin="3s" repeatCount="indefinite"/>
+	<animate attributeType="XML" attributeName="opacity" from="1" to="0" dur="5s" begin="3s" repeatCount="indefinite"/>
+    <animateMotion dur="5s" begin="3s" repeatCount="indefinite">
+      <mpath xlink:href="#smoke-path"/>
+    </animateMotion>
+  </circle>
+  <circle cx="" cy="" r="15" stroke="none" fill="#fff" opacity="0">
+	<animate attributeType="XML" attributeName="r" from="15" to="50" dur="5s" begin="4s" repeatCount="indefinite"/>
+	<animate attributeType="XML" attributeName="opacity" from="1" to="0" dur="5s" begin="4s" repeatCount="indefinite"/>
+    <animateMotion dur="5s" begin="4s" repeatCount="indefinite">
+      <mpath xlink:href="#smoke-path"/>
+    </animateMotion>
+  </circle>
+ </g> 
+ 
+ <!-- speeding car -->
+ <g transform="translate(0 209)" fill="none" stroke="#fff" stroke-linecap="round">
+  <path id="svg-car-path" d="m802.5 478.38h-1005" stroke-width="0"/>
+  <path id="svg-car" d="m456.99 437.37c0 21.175-17.165 38.341-38.341 38.341-21.176 0-38.341-17.166-38.341-38.341 0-21.175 17.165-38.341 38.341-38.341 21.176 0 38.341 17.166 38.341 38.341zm-260.59 0c0 21.175-17.165 38.341-38.341 38.341-21.176 0-38.341-17.166-38.341-38.341 0-21.175 17.165-38.341 38.341-38.341 21.176 0 38.341 17.166 38.341 38.341zm-50.449-94.305 21.81 14.417 219.26 2.4117c-10.734-15.397-65.975-36.139-117.34-39.162-18.713-1.1-28.15-2.04-49.976-0.48509-31.844 3.2157-55.29 11.509-73.747 22.819zm-56.305 11.917-1.1572 15.295h9.5077c6.9949 0 12.65-5.6538 12.65-12.649v-2.6456zm406.65 36.587v2.6456c0 6.9956 5.6546 12.649 12.65 12.649h10.749v-6.118c0.28758-2.9706-0.48329-6.0556-2.0673-9.1768zm-247-87.609c-53.882 0-100.26 11.033-121.2 26.87l-16.949 1.3225c-10.666 0.81729-19.65 8.5256-21.165 18.767h-0.08608l-0.08608 0.57907c-0.09221 0.7918-0.16432 1.579-0.16432 2.3977 0 0.0626-6.13e-4 0.1204 0 0.16007l-3.3065 45.389c-3.6835 7.1274-6.1179 14.274-6.1179 19.677 0 16.191 13.075 29.184 29.267 29.184h6.0347c-0.92714-3.5537-1.4878-7.2324-1.4878-11.079 0-24.324 19.742-44.066 44.066-44.066 24.324 0 44.066 19.742 44.066 44.066 0 3.8462-0.56305 7.5249-1.4884 11.079h175.44c-0.92775-3.5537-1.4884-7.2324-1.4884-11.079 0-24.324 19.742-44.066 44.067-44.066 24.324 0 44.066 19.742 44.066 44.066 0 3.8462-0.56306 7.5249-1.4878 11.079h29.184c15.657 0 28.363-12.168 29.184-27.614h0.0861v-19.594c1.719-17.802-33.107-39.976-68.704-46.547-12.308-2.2712-24.087-2.7454-34.476-1.6531-24.563-22.57-104.01-48.944-167.25-48.944z" stroke-linejoin="round" stroke-width="6">
+   <animateTransform attributeName="transform" type="translate" values="-600 0;0 0;0 0;0 0;600 0" begin="0s" dur="4s" repeatCount="indefinite" />
+  </path>
+ </g>
+ 
+ <!-- trees -->
+ <g transform="translate(0 609)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <g stroke-width="8">
+   <path d="m300.12 208.54c-29.945 0-54.228 24.28-54.228 54.228 0 3.3674 0.28889 6.6255 0.87688 9.8236-31.926 8.2143-55.493 37.198-55.493 71.687 0 40.876 33.146 74.022 74.022 74.022 28.455 0 53.123-16.09 65.51-39.637 29.289-0.75578 52.815-24.709 52.815-54.178 0-21.564-12.606-40.19-30.832-48.927 0.99652-4.113 1.5553-8.369 1.5553-12.79 0-29.948-24.281-54.228-54.228-54.228z"/>
+   <g>
+    <path d="m288.63 552.07v-259.64"/>
+    <path d="m288.63 346.26 44.328-44.33"/>
+    <path d="m287.83 382.67-45.91-45.913"/>
+   </g>
+  </g>
+  <g stroke-width="6">
+   <path d="m139.31 393.73c15.808 0 28.626 12.817 28.626 28.626 0 1.7777-0.15247 3.4975-0.46289 5.1858 16.854 4.3362 29.294 19.636 29.294 37.842 0 21.578-17.497 39.075-39.076 39.075-15.021 0-28.043-8.4938-34.582-20.924-15.461-0.39876-27.881-13.043-27.881-28.6 0-11.384 6.6546-21.216 16.276-25.828-0.52605-2.1712-0.82104-4.4179-0.82104-6.7516 0-15.809 12.818-28.626 28.626-28.626z"/>
+   <g>
+    <path d="m145.38 575.07v-137.06"/>
+    <path d="m145.38 466.43-23.4-23.401"/>
+    <path d="m145.8 485.65 24.235-24.237"/>
+   </g>
+  </g>
+  <g stroke-width="6">
+   <path d="m431.11 555.24v-151.19"/>
+   <path d="m431.11 461.83-34.829-34.829"/>
+   <path d="m436.25 346.27c-17.707 0-32.051 14.345-32.051 32.051 0 1.9609 0.19697 3.8737 0.53547 5.7384-21.591 8.2435-36.963 29.157-36.963 53.644 0 31.696 25.694 57.388 57.389 57.388 31.695 0 57.388-25.692 57.388-57.388 0-16.926-7.3127-32.148-18.969-42.652 2.9925-4.8746 4.717-10.594 4.717-16.731 0-17.705-14.342-32.051-32.048-32.051z"/>
+  </g>
+ </g>
+</svg>
+
+
+

@@ -1,0 +1,286 @@
+body{
+			background-color:#fcc630;
+		}
+		body h1, body h2, body h3, body h4, body h5, body h6, body p{
+			color:#353535;
+		}
+		body a{
+			color: #d12329;
+			text-decoration:none;
+		}
+		body a:hover, body a:focus{
+			color: #af1924;
+			text-decoration: underline;
+		}
+		.cs-impact h6{
+			background-color:#353535;
+			padding:5px;
+			color:#fff;
+			margin-bottom:0;
+		}
+		.cs-impact h6 span{
+			color:#fcc630;
+		}
+
+
+		.btn-primary{
+			background-color:#d12329;
+			text-transform:uppercase;
+			font-weight:600;
+			border:none;
+			border-radius:0;
+			box-shadow:2px 2px 0 #af1924;
+		}
+		.btn-primary:hover, .btn-primary:focus{
+			background-color:#af1924;
+			box-shadow:2px 2px 0 #d12329;
+			transform:scale(1.1);
+		}
+
+		.cs-nav{
+			padding-left:15px;
+			padding-right:15px;
+			padding-top:5px;
+			width:100%;
+			margin-top:40px;
+		}
+		.cs-nav .mark{
+			width:60px;
+			height:auto;
+			display:inline-block;
+			background-color:transparent;
+		}
+		.cs-nav h1{
+			text-transform:uppercase;
+			font-size:16px;
+			font-weight:600;
+			color:#fff;
+			display:inline;
+		}
+		.cs-flash{
+			position:fixed;
+			margin:0;
+			top:0;
+			left:0;
+			width:100%;
+			height:40px;
+			padding:5px 15px 5px 15px;
+			background-color:#d12329;
+			border: 1px solid #af1924;
+			border-style: none none solid none;
+			z-index:9000;
+			font-size:10px;
+			color:#fff;
+		}
+		.cs-flash .btn.btn-default{
+			background-color:transparent;
+			color:#fff;
+			border:2px solid #fff;
+			margin-top:-1px;
+			float:right;
+		}
+		.stats-toggle-wrap{
+			background-color:#353535;
+			width:100%;
+		}
+		.stats-toggle{
+			width:49%;
+			color:#999;
+			display:inline-block;
+			border-bottom-width:2px;
+			border-bottom-style:solid;
+			border-bottom-color:transparent;
+			text-transform:uppercase;
+			font-size:9px;
+			font-weight:600;
+			text-align:center;
+			padding-bottom:5px;
+			padding-top:5px;
+		}
+		.stats-toggle:hover{
+			text-decoration:none;
+			color:#fff;
+		}
+		.stats-toggle.active{
+			border-bottom-color:#fcc630;
+			color:#fff;
+		}
+		.cs-impact{
+			background-color:#464646;
+			text-align:center;
+		}
+		.cs-impact #svg-toggle{
+			position:absolute;
+			right:0;
+			bottom:0;
+			transform:rotate(90deg) translateX(30px);
+			transform-origin: right top;
+		}
+		.cs-impact-display{
+			padding-left:10px;
+			padding-right:40px;
+			position:relative;
+		}
+		.cs-main{
+			padding-left:15px;
+			padding-right:15px;
+			padding-top:20px;
+			background-color:#fff;
+		}
+		.cs-main h1{
+			margin-top:0;
+		}
+		.cs-main-text{
+			padding-top:20px;
+			padding-bottom:20px;
+		}
+		.svg-wrapper{
+			width:90%;
+			padding-bottom:60%;
+			position:relative;
+		}
+		.svg-wrapper div{
+			position:absolute;
+			left:0;
+			top:0;
+			width:100%;
+		}
+		.svg-hidden{
+			display:none !important;
+		}
+		#impact-heading{
+			color:#fff;
+		}
+		.cs-footer{
+			text-align:center;
+			padding:15px;
+			margin-left:-15px;
+			margin-right:-15px;
+			background-color:#fcc630;			
+		}
+		.cs-footer p{
+			font-size:10px;
+		}
+		@media(min-width : 768px) {
+			.cs-nav{
+				position:fixed;
+				top:0;
+				left:0;
+				height:100px;
+				width:33%;
+				text-align:center;
+			}
+			.cs-nav .mark{
+				width:80px;
+				height:auto;
+				display:block;
+				margin:auto;
+			}
+			.cs-flash{
+				padding-top:10px;
+				font-size:14px;
+			}
+			.cs-flash .btn.btn-default{
+				margin-top:-6px;
+			}
+			.cs-impact{
+				position:fixed;
+				top:160px;
+				left:0;
+				bottom:0;
+				width:33%;
+			}
+			.cs-main{
+				position:absolute;
+				right:0;
+				left:33%;
+				top:40px;
+			}
+			.cs-footer{
+				background-color:#fff;			
+			}
+			.svg-wrapper{
+				width:75%;
+				padding-bottom:50%;
+				position:relative;
+			}
+		}
+		@media(min-width : 992px) {
+			.cs-nav{
+				height:100%;
+				width:25%;
+			}
+			.cs-nav .mark{
+				width:120px;
+				margin-top:20px;
+			}
+			.cs-nav h1{
+				font-size:32px;
+			}
+			.cs-impact{
+				position:fixed;
+				top:40px;
+				left:75%;
+				bottom:0;
+				width:25%;
+			}
+			.cs-main{
+				position:absolute;
+				right:25%;
+				left:25%;
+			}
+			.cs-flash .btn.btn-default{
+				float:left;
+				margin-right:15px;
+			}
+			.cs-footer{
+				margin:0;
+				background-color:#fcc630;
+				position:fixed;
+				left:0;
+				bottom:0;
+				width:25%;
+			}
+			.svg-wrapper{
+				width:100%;
+				padding-bottom:66%;
+				position:relative;
+			}
+		}
+		
+/* Animations for SVG elements */
+#svg-car{
+	transition-duration: 1.5s;
+	transition-timing-function: cubic-bezier(0.5, 0, .5, 1);
+}
+.trunk, .branch, .leaves{
+	opacity:0;
+}		
+.draw .trunk {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: draw 1.5s linear forwards;
+}
+.draw .branch {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  opacity:0;
+  animation: draw 1s 1s linear forwards;
+}
+.draw .leaves {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  opacity:0;
+  animation: draw 2s 1.5s linear forwards;
+}
+
+@keyframes draw {
+  0% { opacity: 1; stroke-width: 3; }
+  100% { opacity: 1; stroke-width: 7; }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+#smoke{
+	transition-duration: 5s;
+}
